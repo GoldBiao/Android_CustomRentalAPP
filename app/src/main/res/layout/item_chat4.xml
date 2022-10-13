@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:id="@+id/house_master4"
+    android:layout_height="120dp"
+    android:background="#F8F8F8"
+    android:layout_marginBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv_house_head"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/f4"/>
+
+    <TextView
+        android:id="@+id/tv_house_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="房东4"
+        android:layout_toRightOf="@id/iv_house_head"
+        android:layout_alignTop="@id/iv_house_head"
+        android:layout_margin="12dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black2"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/tv_rental_years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_house_head"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="12dp"
+        android:hint="不要算了，我这不愁客人。"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:hint="星期三"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textColor="#f15a24"/>
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:text="hhh"/>
+
+        <ImageView
+            android:id="@+id/dialog_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_close_black_24dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_house_acreage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_intro">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="面积："/>
+
+        <TextView
+            android:id="@+id/dialog_acreage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="80m²"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_house_acreage"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="租金："/>
+
+        <TextView
+            android:id="@+id/dialog_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1600.00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥/月"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_rentalyears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_price">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出租年限："/>
+
+        <TextView
+            android:id="@+id/dialog_rentalyears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1.5-2年"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_isagency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_rentalyears">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否代理："/>
+
+        <TextView
+            android:id="@+id/dialog_isagency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="是"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/see_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_isagency"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="28dp"
+        android:text="查看详情"
+        android:textColor="#1885F6"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/see_info"
+        android:layout_marginLeft="4dp">
+
+        <ImageView
+            android:id="@+id/hhhh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_location_on_black_24dp"/>
+
+        <TextView
+            android:textColor="#1885F6"
+            android:id="@+id/dialog_mapgo"
+            android:layout_toRightOf="@id/hhhh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地图导航"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

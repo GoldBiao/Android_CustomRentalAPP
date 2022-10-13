@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/ic_select_activity_select"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/iv_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:src="@mipmap/main_select1" />
+
+                <EditText
+                    android:id="@+id/et_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@id/iv_select"
+                    android:hint="地铁五号线"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_select"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:text="@string/sousuo"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/ic_select_tv_select"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="历史记录："
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_clean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="清除记录"
+                    android:layout_alignParentRight="true"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="16dp"
+                    />
+
+            </RelativeLayout>
+
+            
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

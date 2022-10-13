@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/coupon"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:src="@drawable/coupon_not_received"
+        android:visibility="visible"
+        />
+
+
+</LinearLayout>

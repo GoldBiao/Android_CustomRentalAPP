@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="110dp">
+    
+    <ImageView
+        android:id="@+id/iv_house_head"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:src="@mipmap/h1"/>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/iv_house_head"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_house_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="白云区彭上兴富路"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#4d4d4d"
+            android:maxLines="1"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_house_acreage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_house_address"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="房屋面积："
+                />
+
+            <TextView
+                android:id="@+id/tv_house_acreage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="90m²"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_house_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_house_acreage"
+            android:hint="距嘉禾望岗1公里，安华汇，嘉大广场"
+            android:maxLines="1"
+            android:textSize="9sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:maxLength="20"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出租年限："/>
+
+            <TextView
+                android:id="@+id/tv_rental_years"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="1.5-2年"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#F9F9F9"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:hint="1600"
+                android:textColor="#f15a24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥/月"
+                android:textColor="#f15a24"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否已代理："
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_is_agency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="是"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

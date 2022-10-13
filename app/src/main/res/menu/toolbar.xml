@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_page"
+        android:title="首页"
+        android:icon="@drawable/ic_condition_select_black_24dp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setting"
+        android:title="地图找房"
+        android:icon="@drawable/ic_condition_select_black_24dp"
+        app:showAsAction="never" />
+
+
+
+
+
+</menu>

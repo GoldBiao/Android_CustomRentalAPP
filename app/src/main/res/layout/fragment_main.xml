@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/ic_main_select"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="广州"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toRightOf="@id/tv_city" />
+
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="5px"
+                    android:layout_height="33dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/spinner_city"
+                    android:background="@color/login_line_color" />
+
+                <ImageView
+                    android:id="@+id/iv_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/view"
+                    android:src="@mipmap/main_select1" />
+
+
+                <com.superluo.textbannerlibrary.TextBannerView
+                    android:id="@+id/tv_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@id/iv_select"
+                    app:setDirection="bottom_to_top"
+                    app:setGravity="left" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_map_select"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+
+                        android:background="@drawable/ic_map1"
+                        android:src="@mipmap/map" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_map"
+                        android:layout_centerHorizontal="true"
+
+                        android:text="地 图 找 房"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_condition_select"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_condition_select"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+
+                        android:background="@drawable/ic_map2"
+                        android:src="@mipmap/select" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_condition_select"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:text="条 件 找 房" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_marginTop="19dp"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+<!--        <ScrollView-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scrollbars="none">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_pengyouquan"-->
+<!--                style="@style/list_txt_Style"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:drawableLeft="@mipmap/v2"-->
+<!--                android:text="@string/discover_txt_pengyouquan" />-->
+
+<!--            <View-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="0.3dp"-->
+<!--                android:background="@color/black3" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_saoyisao"-->
+<!--                style="@style/list_txt_Style"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:drawableLeft="@mipmap/icon_de_saoyisao"-->
+<!--                android:text="@string/discover_txt_saoyisao" />-->
+
+<!--            <View-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="0.3dp"-->
+<!--                android:background="@color/black3" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_yaoyiyao"-->
+<!--                style="@style/list_txt_Style"-->
+<!--                android:drawableLeft="@mipmap/icon_de_yao"-->
+<!--                android:text="@string/discover_txt_yaoyiyao" />-->
+
+<!--            <View-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="0.3dp"-->
+<!--                android:background="@color/black3" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_nearby"-->
+<!--                style="@style/list_txt_Style"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:drawableLeft="@mipmap/icon_de_nearby"-->
+<!--                android:text="@string/discover_txt_nearby" />-->
+
+<!--            <View-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="0.3dp"-->
+<!--                android:background="@color/black3" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_piaoliuping"-->
+<!--                style="@style/list_txt_Style"-->
+<!--                android:drawableLeft="@mipmap/icon_de_ping"-->
+<!--                android:text="@string/discover_txt_piaoliuping" />-->
+
+<!--            <View-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="0.3dp"-->
+<!--                android:background="@color/black3" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_shop"-->
+<!--                style="@style/list_txt_Style"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:drawableLeft="@mipmap/icon_de_shop"-->
+<!--                android:text="@string/discover_txt_shop" />-->
+
+<!--            <View-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="0.3dp"-->
+<!--                android:background="@color/black3" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_game"-->
+<!--                style="@style/list_txt_Style"-->
+<!--                android:drawableLeft="@mipmap/icon_de_game"-->
+<!--                android:text="@string/discover_txt_game" />-->
+
+<!--            <View-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="0.3dp"-->
+<!--                android:background="@color/black3" />-->
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+
+
+
+
+</LinearLayout>

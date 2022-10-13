@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/drawable/bg_login_input_ok.xml" value="0.164" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/drawable/ic_condition_select_black_24dp.xml" value="0.127" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/drawable/input_background.xml" value="0.1935" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_card.xml" value="0.18541666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_condition_select.xml" value="0.25" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_forget_pwd.xml" value="0.18541666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_house_detail.xml" value="0.25" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_item_detail.xml" value="0.18541666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_main_login_navigation_bar.xml" value="0.335" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_main_register_step_one.xml" value="0.18541666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_main_reset_pwd.xml" value="0.21666666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_map_search_house.xml" value="0.1762917933130699" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_register.xml" value="0.21666666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/activity_select.xml" value="0.21666666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/bubble_map_item_info.xml" value="0.21666666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_contacts.xml" value="0.18541666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_lazy_loading.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_me.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_message.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_msg_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_msg_item2.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_msg_item3.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_msg_item5.xml" value="0.2078804347826087" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/fragment_msg_item6.xml" value="0.21666666666666667" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/friend_list_item.xml" value="0.2257142857142857" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/head_layout.xml" value="0.2078804347826087" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/house_list_item.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/item_chat.xml" value="0.14175724637681159" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/item_chat2.xml" value="0.14175724637681159" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/item_chat3.xml" value="0.3242753623188406" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/item_chat4.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/item_chat5.xml" value="0.2078804347826087" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/item_chat6.xml" value="0.2078804347826087" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/item_history_data.xml" value="0.3111413043478261" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/layout_acreage_select_item_view.xml" value="0.2513586956521739" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/layout_baidu_map_buttom_menu.xml" value="0.10536980749746708" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/layout_condition_select_item_view.xml" value="0.2513586956521739" />
+        <entry key="..\:/DatabaseSystemFinal/app/src/main/res/layout/layout_tv_protocol.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

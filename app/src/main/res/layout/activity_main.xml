@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <com.keysu.customizedrental.view.TabGroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:id="@+id/group_tab_layout"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <com.keysu.customizedrental.view.TabView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tab_main"
+            app:tabName="@string/shouye"
+            app:tabNameSize="@dimen/tabNameSize"
+            app:tabNameColor="@android:color/darker_gray"
+            app:tabNameSelectColor="@color/tab_bg_green"
+            app:tabIcon="@mipmap/discover"
+            app:tabIconSelect="@mipmap/discover_green"
+            app:tabChecked="true"
+
+            />
+
+        <com.keysu.customizedrental.view.TabView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tab_friedns"
+            app:tabName="@string/xiaoxi"
+            app:tabNameSize="@dimen/tabNameSize"
+            app:tabNameColor="@android:color/darker_gray"
+            app:tabNameSelectColor="@color/tab_bg_green"
+
+            app:tabIcon="@mipmap/chats"
+            app:tabIconSelect="@mipmap/chats_green"
+
+            app:tabLablebackground="@color/item_tab_bg"
+            />
+
+        <com.keysu.customizedrental.view.TabView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:tabName="@string/my"
+            app:tabNameSize="@dimen/tabNameSize"
+            app:tabNameColor="@android:color/darker_gray"
+            app:tabNameSelectColor="@color/tab_bg_green"
+            app:tabIcon="@mipmap/about_me"
+            app:tabIconSelect="@mipmap/about_me_green"
+            />
+
+    </com.keysu.customizedrental.view.TabGroupView>
+
+
+
+</LinearLayout>
